@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.top-row {
+    height: 50vh;
+}
+
+.bottom-row {
+    height: 50vh;
+}
+
+.frame {
+    display: inline-block;
+    height: 100%;
+    width: 49.5%;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.bottom-row .frame {
+    box-sizing: border-box;
+}
+
+.frame h1{
+    text-align: center;
+    padding: 120px 0px;
+}
